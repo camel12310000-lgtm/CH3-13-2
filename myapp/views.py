@@ -5,7 +5,7 @@ from django.forms.models import model_to_dict
 
 
 def test(request):
-    return HttpResponse("hello world")
+    return HttpResponse("hello 999 world")
 def search_list(request):
     resultObject = students.objects.all().order_by("cID")
     # for d in resultObject:
